@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlumniLink - Alumni Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <div class="logo-icon"></div>
+                    <span class="logo-text">REALM</span>
+                </div>
+                <span class="tagline">Alumni Management</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Alumni</a>
+                <a href="#" class="nav-link">Events</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+            <div class="user-actions">
+                <div class="user-profile">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face" alt="User" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <a href="#" class="sidebar-link active">
+                    <span class="sidebar-icon">🏠</span>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">👥</span>
+                    <span>Alumni</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">📊</span>
+                    <span>Analytics</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">📅</span>
+                    <span>Events</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">💬</span>
+                    <span>Messages</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">🤝</span>
+                    <span>Mentorship</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">💼</span>
+                    <span>Jobs</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">🎓</span>
+                    <span>Graduates</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">💰</span>
+                    <span>Donations</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">📈</span>
+                    <span>Reports</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">⚙️</span>
+                    <span>Settings</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="sidebar-icon">📞</span>
+                    <span>Support</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Stats Cards -->
+            <section class="stats-section">
+                <div class="stats-card">
+                    <div class="card-header">
+                        <h3>Quick Stats</h3>
+                        <button class="btn-secondary">View All</button>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">2,847</div>
+                            <div class="stat-label">Total Alumni</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">156</div>
+                            <div class="stat-label">Active Mentors</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">89</div>
+                            <div class="stat-label">Job Postings</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="monitoring-card">
+                    <div class="card-header">
+                        <h3>Monitoring</h3>
+                        <span class="status-badge">Live</span>
+                    </div>
+                    <div class="monitoring-stats">
+                        <div class="monitoring-item">
+                            <span class="label">Engagement Rate</span>
+                            <span class="value">78%</span>
+                        </div>
+                        <div class="monitoring-item">
+                            <span class="label">Active Users</span>
+                            <span class="value">1,243</span>
+                        </div>
+                    </div>
+                    <button class="btn-primary">Analytics</button>
+                </div>
+            </section>
+
+            <!-- Alumni Profiles -->
+            <section class="profiles-section">
+                <div class="profiles-grid">
+                    <!-- Featured Alumni -->
+                    <div class="profile-card featured">
+                        <div class="profile-header">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Alumni" class="profile-avatar">
+                            <div class="profile-info">
+                                <h4>Sam Davis</h4>
+                                <p>Software Engineer at Google</p>
+                                <span class="graduation-year">Class of 2018</span>
+                            </div>
+                        </div>
+                        <div class="profile-actions">
+                            <button class="btn-outline">Connect</button>
+                            <button class="btn-primary">Message</button>
+                        </div>
+                    </div>
+
+                    <!-- Alumni Grid -->
+                    <div class="alumni-grid">
+                        <div class="alumni-item">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face" alt="Alumni" class="alumni-avatar">
+                            <div class="alumni-info">
+                                <h5>Priya Patel</h5>
+                                <p>Product Manager</p>
+                            </div>
+                        </div>
+                        <div class="alumni-item">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=60&h=60&fit=crop&crop=face" alt="Alumni" class="alumni-avatar">
+                            <div class="alumni-info">
+                                <h5>Michael Chen</h5>
+                                <p>Data Scientist</p>
+                            </div>
+                        </div>
+                        <div class="alumni-item">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b332e234?w=60&h=60&fit=crop&crop=face" alt="Alumni" class="alumni-avatar">
+                            <div class="alumni-info">
+                                <h5>Emily Johnson</h5>
+                                <p>Marketing Director</p>
+                            </div>
+                        </div>
+                        <div class="alumni-item">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" alt="Alumni" class="alumni-avatar">
+                            <div class="alumni-info">
+                                <h5>David Kumar</h5>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Network Visualization -->
+                <div class="network-card">
+                    <h3>Alumni Network</h3>
+                    <div class="network-visual">
+                        <div class="network-node central"></div>
+                        <div class="network-node node1"></div>
+                        <div class="network-node node2"></div>
+                        <div class="network-node node3"></div>
+                        <div class="network-node node4"></div>
+                        <div class="network-connections"></div>
+                    </div>
+                    <p>Discover connections in your alumni network</p>
+                </div>
+            </section>
+
+            <!-- Bottom Section -->
+            <section class="bottom-section">
+                <div class="search-card">
+                    <h3>Find Alumni</h3>
+                    <div class="search-container">
+                        <input type="text" placeholder="Search by name, company, or graduation year..." class="search-input">
+                        <button class="btn-primary">Search</button>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+                    <h3>Quick Actions</h3>
+                    <div class="action-buttons">
+                        <button class="action-btn">
+                            <span class="action-icon">📧</span>
+                            <span>Send Newsletter</span>
+                        </button>
+                        <button class="action-btn">
+                            <span class="action-icon">📅</span>
+                            <span>Create Event</span>
+                        </button>
+                        <button class="action-btn">
+                            <span class="action-icon">👥</span>
+                            <span>Add Alumni</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
